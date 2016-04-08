@@ -36,8 +36,9 @@ vax ~/Projects/my-node-project
 > info: I reinstalled and shrinkwrapped your dependencies for you.
 ```
 
-## License
+----
 
-Copyright (c) 2016 Chris Contolini
-
-[MIT License](http://en.wikipedia.org/wiki/MIT_License)
+## Open source licensing info
+1. [TERMS](TERMS.md)
+2. [LICENSE](LICENSE)
+3. [CFPB Source Code Policy](https://github.com/cfpb/source-code-policy/)
