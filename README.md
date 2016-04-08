@@ -27,7 +27,7 @@ vax ~/Projects/my-node-project
 To automatically fix any problems, use the `--fix` option.
 
 ```
-vax ~/Projects/my-node-project
+vax ~/Projects/my-node-project --fix
 
 > info: No .npmrc file found. I created one for you.
 > info: Your `package.json` file looks good.
