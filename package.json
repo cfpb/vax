@@ -2,7 +2,6 @@
   "name": "vax",
   "version": "1.0.0",
   "description": "Check a repo for npm security best practices",
-  "private": true,
   "bin": {
     "vax": "./bin/vax"
   },
@@ -21,13 +20,8 @@
   "license": "MIT",
   "bugs": "https://github.com/cfpb/vax/issues",
   "dependencies": {
-    "async": "2.0.0-rc.3",
-    "autocmdr": "0.0.8",
     "commander": "2.9.0",
     "npm": "3.8.6",
-    "request": "2.70.0",
-    "semver": "5.1.0",
-    "winston": "2.2.0",
     "winston-color": "1.0.0"
   },
   "devDependencies": {
