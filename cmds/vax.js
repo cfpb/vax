@@ -15,7 +15,6 @@ module.exports = function(program) {
   program
     .command('*')
     .description('Check your node module for security issues.')
-    .option('-f, --fix', 'Automatically fix any issues.')
     .action(function(loc) {
       location = loc || '.';
       fix = program.fix;
@@ -43,7 +42,7 @@ function checkRc(cb) {
 function checkShrinkwrap(cb) {
   fs.readFile(path.join(location, './npm-shrinkwrap.json'), 'utf8', function (err, data) {
     if (err) return handleIssue(5, cb);
-    cb(null, 'Successfully found your `npm-shrinkwrap.json` file.');
+    cb(null, 'It looks live you\'ve shrinkwrapped. Good job.');
   });
 }
 

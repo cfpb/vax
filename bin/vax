@@ -4,7 +4,8 @@
 var program  = require('commander');
 
 require('../cmds/vax.js')(program);
-console.log(process.argv)
+
 program
   .version('1.0.0')
+  .option('-f, --fix', 'Automatically fix any issues.')
   .parse(process.argv);
