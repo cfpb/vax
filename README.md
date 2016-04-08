@@ -1,8 +1,6 @@
-# vax
+# vax [![Build Status](https://travis-ci.org/cfpb/vax.svg?branch=master)](https://travis-ci.org/cfpb/vax)
 
-## Description
-
-Check a local node module for npm security best practices. Currently, it simply:
+Check your Node project for npm security best practices. Currently, it simply:
 
 1. Checks if you have an `.npmrc` file with `save-exact=true` in it.
 1. Checks if an `npm-shrinkwrap.json` file is present.
