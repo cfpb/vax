@@ -1,0 +1,36 @@
+{
+  "name": "vax",
+  "version": "1.0.0",
+  "description": "Check a repo for npm security best practices",
+  "private": true,
+  "bin": {
+    "vax": "./bin/vax"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "author": {
+    "name": "Chris Contolini",
+    "email": "christopher.contolini@cfpb.gov",
+    "url": "https://cfpb.github.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cfpb/vax"
+  },
+  "license": "MIT",
+  "bugs": "https://github.com/cfpb/vax/issues",
+  "dependencies": {
+    "async": "2.0.0-rc.3",
+    "autocmdr": "0.0.8",
+    "commander": "2.9.0",
+    "npm": "3.8.6",
+    "request": "2.70.0",
+    "semver": "5.1.0",
+    "winston": "2.2.0",
+    "winston-color": "1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "2.4.5"
+  }
+}
