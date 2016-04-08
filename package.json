@@ -1,6 +1,6 @@
 {
   "name": "vax",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Check a repo for npm security best practices",
   "bin": {
     "vax": "./bin/vax"
