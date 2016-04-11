@@ -42,7 +42,7 @@ function checkRc(cb) {
 function checkShrinkwrap(cb) {
   fs.readFile(path.join(location, './npm-shrinkwrap.json'), 'utf8', function (err, data) {
     if (err) return handleIssue(5, cb);
-    cb(null, 'It looks live you\'ve shrinkwrapped. Good job.');
+    cb(null, 'It looks like you\'ve shrinkwrapped. Good job.');
   });
 }
 
