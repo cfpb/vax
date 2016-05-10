@@ -71,7 +71,7 @@ function handleIssue(type, cb, data) {
   switch (type) {
     case 1:
       if (fix) {
-        request('https://raw.githubusercontent.com/cfpb/generator-cf/master/app/templates/.npmrc')
+        request('https://raw.githubusercontent.com/cfpb/generator-cf/master/app/templates/_npmrc')
           .on('error', function(err) {
             cb(err, null)
           })
