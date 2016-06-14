@@ -17,7 +17,7 @@
     "type": "git",
     "url": "https://github.com/cfpb/vax"
   },
-  "license": "CC0-1.0",
+  "license": "SEE LICENSE IN TERMS.md",
   "bugs": "https://github.com/cfpb/vax/issues",
   "dependencies": {
     "commander": "2.9.0",
