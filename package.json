@@ -21,12 +21,12 @@
   "bugs": "https://github.com/cfpb/vax/issues",
   "dependencies": {
     "commander": "2.9.0",
-    "npm": "3.8.6",
-    "request": "2.70.0",
-    "update-notifier": "0.6.3",
+    "npm": "4.0.3",
+    "request": "2.79.0",
+    "update-notifier": "1.0.3",
     "winston-color": "1.0.0"
   },
   "devDependencies": {
-    "mocha": "^2.4.5"
+    "mocha": "^3.2.0"
   }
 }
